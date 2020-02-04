@@ -1,0 +1,51 @@
+/* selector */
+body {
+  /* change background color - takes rgb(#,#,#), #000000, color name */
+  background-color: #5ca8f7;
+  /* change font color - same values as background color*/
+  color: black;
+  /* changes font */
+  font-family: sans-serif;
+  /* changes font size */
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  /* margins take 4 potential values
+  1 number = all margins are that value (margin: 100px;)
+  2 numbers = top/bottom first number, left/right second number (margin: 100px 50px;),
+  3 numbers = top first number, left/right second number, bottom third number (margin: 100px 50px 75px;)
+  4 numbers = top, right, bottom, left (margin: 100px 50px 75px 25px;)*/
+  margin: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  font-size: 50px;
+  /* control case of text - uppercase, lowercase, sentence, title */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: teal;
+  /* remove anchor underline */
+  text-decoration: none;
+}
+a:hover {
+  color: pink;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 25px 0 0 0;
+}
+#images {
+  margin: 0;
+  text-align: center;
+}
+#images img {
+  max-width: 100%;
+  margin: 25px 0;
+}
