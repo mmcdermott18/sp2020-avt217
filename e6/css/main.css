@@ -3,10 +3,10 @@ body {
   overflow-x: hidden;
 }
 .container {
- width: 130vw;
+ width: 110vw;
  margin: -50px -10%;
 }
-.block-1, .block-2, .block-3 {
+.block-1, .block-2 {
   width: 100px;
   height: 100px;
   float: left;
@@ -15,7 +15,7 @@ body {
   border: 10px solid black;
 }
 .block-1 {
-  border-color: white;
+  border-color: black;
   margin: 50px;
 }
 .block-2 {
@@ -23,6 +23,11 @@ body {
   margin: -50px;
 }
 .block-3 {
-  border-color: white;
-  margin: -50px;
+  border-radius: 50%;
+  border: 10px solid black;
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-color: blue;
+  margin: 0;
 }
