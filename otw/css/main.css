@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.container {
+ width: 130vw;
+ margin: -50px auto;
+}
+.block-1, .block-2, .block-3, .block-4, .block-5, .block-6 {
+  float: left;
+}
+
+/***************************************************
+****************************************************
+****************************************************
+****************************************************
+Don't change anything above this line!
+****************************************************
+****************************************************
+****************************************************
+****************************************************/
+
+/*
+
+a few notes
+
+1. each property has a note above it to help with what that property changes. only change the numbers, not any of the other text.
+2. you can have a maximum of 6 shapes in your pattern, if you want to hide one of the shapes set the width and height to 0.
+3. when you want to see your changes, save this file (file > save or command+s) then refresh the browser page to the left (click the refresh button or hit command+r).
+4. keep making changes and refreshing the page to see what your pattern looks like!
+
+*/
+
+.block-1 {
+  /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
+  width: 100px;
+  /* change this number to change the height of the shape make sure px is at the end of the number (100px for example) */
+  height: 100px;
+  /* change these numbers to change the color of the shape for the first three number pick a number between 0 and 255, for the forth number pick a decimal between 0 and 1 (this changes the opacity) */
+  background-color: rgba(200,100,0,.5);
+  /* change this number to change the width of the border on the shape make sure px is at the end of the number (10px for example). if this number is zero there will be no border */
+  border-width: 10px;
+  /* same directions as the note above background color but this changes the border color */
+  border-color: rgba(0,0,0,1);
+  /* change these numbers to make the shapes overlap or to add space between the shapes. These numbers can be positive or negative and do not need to all be the same. they should all end in px (-25px for example) */
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
+  border-radius: 50%;
+}
+.block-2 {
+  /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
+  width: 100px;
+  /* change this number to change the height of the shape make sure px is at the end of the number (100px for example) */
+  height: 100px;
+  /* change these numbers to change the color of the shape for the first three number pick a number between 0 and 255, for the forth number pick a decimal between 0 and 1 (this changes the opacity) */
+  background-color: rgba(100,100,200,.5);
+  /* change this number to change the width of the border on the shape make sure px is at the end of the number (10px for example). if this number is zero there will be no border */
+  border-width: 10px;
+  /* same directions as the note above background color but this changes the border color */
+  border-color: rgba(0,0,0,1);
+  /* change these numbers to make the shapes overlap or to add space between the shapes. These numbers can be positive or negative and do not need to all be the same. they should all end in px (-25px for example) */
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
+  border-radius: 50%;
+}
+.block-3 {
+  /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
+  width: 100px;
+  /* change this number to change the height of the shape make sure px is at the end of the number (100px for example) */
+  height: 100px;
+  /* change these numbers to change the color of the shape for the first three number pick a number between 0 and 255, for the forth number pick a decimal between 0 and 1 (this changes the opacity) */
+  background-color: rgba(200,100,100,.5);
+  /* change this number to change the width of the border on the shape make sure px is at the end of the number (10px for example). if this number is zero there will be no border */
+  border-width: 10px;
+  /* same directions as the note above background color but this changes the border color */
+  border-color: rgba(0,0,0,1);
+  /* change these numbers to make the shapes overlap or to add space between the shapes. These numbers can be positive or negative and do not need to all be the same. they should all end in px (-25px for example) */
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
+  border-radius: 50%;
+}
+.block-4 {
+  /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
+  width: 100px;
+  /* change this number to change the height of the shape make sure px is at the end of the number (100px for example) */
+  height: 100px;
+  /* change these numbers to change the color of the shape for the first three number pick a number between 0 and 255, for the forth number pick a decimal between 0 and 1 (this changes the opacity) */
+  background-color: rgba(100,100,50,.5);
+  /* change this number to change the width of the border on the shape make sure px is at the end of the number (10px for example). if this number is zero there will be no border */
+  border-width: 10px;
+  /* same directions as the note above background color but this changes the border color */
+  border-color: rgba(0,0,0,1);
+  /* change these numbers to make the shapes overlap or to add space between the shapes. These numbers can be positive or negative and do not need to all be the same. they should all end in px (-25px for example) */
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
+  border-radius: 50%;
+}
+.block-5 {
+  /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
+  width: 100px;
+  /* change this number to change the height of the shape make sure px is at the end of the number (100px for example) */
+  height: 100px;
+  /* change these numbers to change the color of the shape for the first three number pick a number between 0 and 255, for the forth number pick a decimal between 0 and 1 (this changes the opacity) */
+  background-color: rgba(200,200,0,.5);
+  /* change this number to change the width of the border on the shape make sure px is at the end of the number (10px for example). if this number is zero there will be no border */
+  border-width: 10px;
+  /* same directions as the note above background color but this changes the border color */
+  border-color: rgba(0,0,0,1);
+  /* change these numbers to make the shapes overlap or to add space between the shapes. These numbers can be positive or negative and do not need to all be the same. they should all end in px (-25px for example) */
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
+  border-radius: 50%;
+}
+.block-6 {
+  /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
+  width: 100px;
+  /* change this number to change the height of the shape make sure px is at the end of the number (100px for example) */
+  height: 100px;
+  /* change these numbers to change the color of the shape for the first three number pick a number between 0 and 255, for the forth number pick a decimal between 0 and 1 (this changes the opacity) */
+  background-color: rgba(200,200,200,.5);
+  /* change this number to change the width of the border on the shape make sure px is at the end of the number (10px for example). if this number is zero there will be no border */
+  border-width: 10px;
+  /* same directions as the note above background color but this changes the border color */
+  border-color: rgba(0,0,0,1);
+  /* change these numbers to make the shapes overlap or to add space between the shapes. These numbers can be positive or negative and do not need to all be the same. they should all end in px (-25px for example) */
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
+  border-radius: 50%;
+}
