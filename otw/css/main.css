@@ -49,6 +49,8 @@ a few notes
   margin-left: 50px;
   /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
   border-radius: 50%;
+  /* changes the kind of border, type solid, dashed, or dotted */
+  border-style: solid;
 }
 .block-2 {
   /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
@@ -68,6 +70,8 @@ a few notes
   margin-left: 50px;
   /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
   border-radius: 50%;
+  /* changes the kind of border, type solid, dashed, or dotted */
+  border-style: solid;
 }
 .block-3 {
   /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
@@ -87,6 +91,8 @@ a few notes
   margin-left: 50px;
   /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
   border-radius: 50%;
+  /* changes the kind of border, type solid, dashed, or dotted */
+  border-style: solid;
 }
 .block-4 {
   /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
@@ -106,6 +112,8 @@ a few notes
   margin-left: 50px;
   /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
   border-radius: 50%;
+  /* changes the kind of border, type solid, dashed, or dotted */
+  border-style: solid;
 }
 .block-5 {
   /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
@@ -125,6 +133,8 @@ a few notes
   margin-left: 50px;
   /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
   border-radius: 50%;
+  /* changes the kind of border, type solid, dashed, or dotted */
+  border-style: solid;
 }
 .block-6 {
   /* change this number to change the width of the shape make sure px is at the end of the number (100px for example) */
@@ -144,4 +154,6 @@ a few notes
   margin-left: 50px;
   /* change this number to round the corners of your shape. pick a percentage (25% for example) between 0 and 100%. if set to 50% it will become an oval or circle. */
   border-radius: 50%;
+  /* changes the kind of border, type solid, dashed, or dotted */
+  border-style: solid;
 }
