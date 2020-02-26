@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  background: dodgerblue;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+/* css for chess */
+#board {
+  width: 800px;
+  margin: 100px auto;
+
+}
+.red, .white {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: tomato;
+}
+.white {
+  background-color: whitesmoke;
+}
+
+/* css for 3col */
+
+#threecol {
+  width: 900px;
+  margin: 100px auto;
+}
+.header, .subhead, .column, .footer {
+  background-color: white;
+  float: left;
+}
+.header {
+  width: 100%;
+  height: 100px;
+}
+.subhead {
+  width: 100%;
+  height: 50px;
+  margin: 25px 0;
+}
+.column {
+  width: calc((100% - 50px ) / 3);
+  height: 900px;
+}
+.footer {
+  width: 100%;
+  height: 75px;
+  margin: 25px 0 0 0;
+}
+.margin25 {
+  margin: 0 25px;
+}
+/* percentages and vws */
+.percentage {
+  width: 50%;
+  height: 100px;
+  background-color: red;
+}
+.percentage-2 {
+  width: 50%;
+  height: 100px;
+  background-color: black;
+}
+.vw {
+  width: 50vw;
+  height: 100px;
+  background-color: blue;
+}
+.pixel {
+  width: 1000px;
+  /* height: 100px; */
+  background-color: yellow;
+  margin: 100px auto;
+}
