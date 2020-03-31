@@ -1,13 +1,12 @@
 body {
   margin: 0;
-  background: dodgerblue;
+  background-color: dodgerblue;
 }
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
-
 .clearfix:after {
     clear: both;
 }
@@ -81,4 +80,69 @@ body {
   /* height: 100px; */
   background-color: yellow;
   margin: 100px auto;
+}
+/* css for blog */
+.blog-container {
+  width: 900px;
+  margin: 100px auto;
+}
+.header {
+  width: 900px;
+  height: 200px;
+  background-color: white;
+  float: left;
+}
+.post {
+  width: 700px;
+  height: 400px;
+  background-color: white;
+  float: left;
+  margin: 100px 25px 25px 0;
+}
+.image {
+  width: 175px;
+  height: 200px;
+  background-color: white;
+  float: left;
+  margin: 100px 0 0;
+}
+.post-footer {
+  width: 700px;
+  height: 50px;
+  background-color: white;
+  float: left;
+}
+
+/* css for tennis court */
+* {
+  box-sizing: border-box;
+}
+.court {
+  width: 900px;
+  margin: 100px auto;
+}
+.side {
+  width: 150px;
+  height: 600px;
+  background-color: lightgreen;
+  float: left;
+  border: 5px solid white;
+}
+.back {
+  width: 600px;
+  height: 200px;
+  background-color: lightgreen;
+  float: left;
+  border: 5px solid white;
+}
+.service {
+  width: 300px;
+  height: 400px;
+  background-color: lightgreen;
+  float: left;
+  border: 5px solid white;
+}
+.single {
+  width: 600px;
+  float: left;
 }
