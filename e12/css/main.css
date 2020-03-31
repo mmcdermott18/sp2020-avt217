@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 80vw;
+  /* how do I center my container? */
+  margin: 150px auto;
+  /* delete below this line before final */
+}
+.header {
+  width: 100%;
+  height: 500px;
+  padding: 100px;
+  box-sizing: border-box;
+  background: url(../img/image.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* delete below this line before final */
+}
+.mainText {
+  width: 50%;
+  margin: 30% 0 0 50%;
+  /* delete below this line before final */
+}
+
+/* styles in media queries only need to be what is changing you do not need to duplicate code if that style is staying the same */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 50px auto;
+  }
+  .mainText {
+    width: 100%;
+    margin: 20% 0 0 0;
+  }
+}
