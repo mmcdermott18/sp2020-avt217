@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+#container {
+	width: 100vw;
+}
+.nav {
+	position: __________;
+	top: 0;
+	left: 0;
+}
+.main {
+	width: 50%;
+	margin: 0 auto;
+}
+.title {
+	width: 50%;
+}
